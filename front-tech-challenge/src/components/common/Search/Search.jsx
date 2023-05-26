@@ -1,8 +1,18 @@
+import { useState } from "react"
 import styles from "../Search/search.module.scss"
 
+
+
 export const Search = () => {
+
+    const [isActive, setIsActive] = useState(true)
+
+    window.addEventListener('scroll', () => {
+      window.scrollY > 80 ? setIsActive(false) : setIsActive(true)
+    })
+  
   return (
-    <div className=" bg-gray-100 flex flex-col justify-center">
+    <div className={`bg-gray-100 flex flex-col justify-center ${isActive ? 'pt-28 bg-[#526D82]' : 'pt-20 bg-[#9DB2BF]'} transition-all duration-500 ease-in-out w-full fixed`}>
         <div className="relative p-4 w-full sm:max-w-2xl sm:mx-auto">
             <div className="overflow-hidden z-0 rounded-full relative p-3">
             <form role="form" className="relative flex z-50 bg-white rounded-full">

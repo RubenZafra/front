@@ -1,6 +1,65 @@
 export const MainContainer = () => {
   return (
-    <div className="flex justify-center min-h-screen">
+    <div className="flex flex-col justify-center min-h-screen pt-60 bg-[#DDE6ED]">
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
         <h1>Hi</h1>
     </div>
   )
