@@ -1,14 +1,15 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {GiFangsCircle} from 'react-icons/gi'
-
 
 
 export const NavBar = () => {
 
   const [isActive, setIsActive] = useState(true)
 
-  window.addEventListener('scroll', () => {
-    window.scrollY > 80 ? setIsActive(false) : setIsActive(true)
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      window.scrollY > 80 ? setIsActive(false) : setIsActive(true)
+    })
   })
 
   return (
@@ -21,7 +22,12 @@ export const NavBar = () => {
               <button className="bg-blue-500 text-white px-4 py-2 rounded-md">Upload Gif</button>
             </div>
             <div>
-              <button className="bg-blue-500 text-white px-4 ml-4 py-2 rounded-md">Login</button>
+              <button 
+                className="bg-blue-500 text-white px-4 ml-4 py-2 rounded-md"
+                
+                >
+                  Login
+              </button>
               <button className="bg-red-500 text-white px-4 py-2 ml-4 rounded-md">Sign Up</button>
             </div>
           </div>
